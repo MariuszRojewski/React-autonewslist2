@@ -12,3 +12,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#root {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+
+  width: 1000px;
+  height: auto;
+  width: 100vw;
+  margin: 50px 0;
+}
+
+h1 {color: #eee;}
+h2 {margin-top: 0;}
+
+.wrapper {
+  padding: 30px 30px;
+  border-radius: 25px;
+  margin: 0 auto;
+
+  -webkit-box-shadow: 8px 8px 24px 0px rgba(228, 228, 228, 1);
+  -moz-box-shadow: 8px 8px 24px 0px rgba(228, 228, 228, 1);
+  box-shadow: 8px 8px 24px 0px rgba(228, 228, 228, 1);
+
+}
